@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "bug",
 
-    "django_rest_framework",
     "corsheaders",
     "rest_framework",
 ]
@@ -73,11 +72,11 @@ LOGGING = {
         "console": {
             "class": "logging.StreamHandler",
         },
-        "root": {
-            "handlers": ["console"],
-            "level": "INFO",
-        },
-    }
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "INFO",
+    },
 }
 
 TEMPLATES = [

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..models.bug import BugReport
+from .models import BugReport
 
 class BugReportSerializer(serializers.ModelSerializer):
     class Meta:
