@@ -1,4 +1,4 @@
-from .models.bug import BugReport
+from .models import BugReport
 
 class BugService:
 
@@ -12,8 +12,8 @@ class BugService:
 
         if filters:
             if filters.get("severity"):
-                queryset = queryset.filter(severity=filters("severity"))
-                if filters.get("status"):
-                    queryset = queryset.filter(status=filters("status"))
+                queryset = queryset.filter(severity=filters.get("severity"))
+            if filters.get("status"):
+                queryset = queryset.filter(status=filters.get("status"))
 
         return queryset.order_by("-created_at")
