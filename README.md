@@ -55,7 +55,7 @@ Students will:
 | Student Name | Project Name | Tools Used | GitHub / Links | Other Links |
 |--------------|-------------|------------|----------------|-------------|
 | Bidhya, Bikita, Bijena, Enzela | BMI Application | JavaScript, Python | https://github.com/bidhyabhattarai/BMI_calculator | - |
-| Aishwarya, Anuja, Anuska, Asmita | Tax Application | React, Django | https://github.com/... | - |
+| Aishwarya, Anuja, Anuska, Asmita | Tax Application | React, Django | https://github.com/Anujakhatri/Taxation-system-nepal | - |
 | Roshni, Kopila, Salina, Shalu | Lagani Kosh Application | Django, React, JS | https://github.com/kopiladevkota/nepal_lagani_kosh | - |
 | Subekshya, Urmila, Sneha, Sovita | Currency Converter | Python, Django, PostgreSQL | https://github.com/subekshya-s/currency-converter | - |
 
