@@ -50,7 +50,7 @@ Students will:
 
 ---
 ## Students Projects Showcase 
-## 📁 Student Projects
+## Student's Group Projects
 
 | Student Name | Project Name | Tools Used | GitHub / Links | Other Links |
 |--------------|-------------|------------|----------------|-------------|
@@ -58,17 +58,6 @@ Students will:
 | Aishwarya, Anuja, Anuska, Asmita | Tax Application | React, Django | https://github.com/... | - |
 | Roshni, Kopila, Salina, Shalu | Lagani Kosh Application | Django, React, JS | https://github.com/kopiladevkota/nepal_lagani_kosh | - |
 | Subekshya, Urmila, Sneha, Sovita | Currency Converter | Python, Django, PostgreSQL | https://github.com/subekshya-s/currency-converter | - |
-| Kopila Devkota | System Info Reporter | Python | https://github.com/kopiladevkota/system-info-reporter | https://pypi.org/project/system-info-reporter-kopila/ |
-| Bikita Suwal | CSV to JSON Converter | Python | https://github.com/bikitasuwal/csv_to_json_converter | https://pypi.org/project/csvtojson-bikita/ |
-| Asmita Timalsena | Auto Screenshot Tool | Python | https://github.com/AsmitaTimalsena/auto_screenshot_taker_tool | https://pypi.org/project/auto-screenshot-tool-asmita/ |
-| Anuska Bhandari | Bulk File Renamer | Python | https://github.com/anuskabhandari/Bulk_file_renamer | https://pypi.org/project/bulk-renamer-anuska/ |
-| Anuja Khatri | Email Sender Automation | Python | https://pypi.org/project/email-sender-automation/ | - |
-| Urmila Thalal | Text File Search Tool | Python (CLI) | https://pypi.org/project/text-file-search-tool-urmila/ | - |
-| Salina Shrestha | Password Generator | Python | https://github.com/salena188/password_generator | - |
-| Aiswarya Pokharel | Website Status Checker | Python | https://pypi.org/project/urldrop/ | - |
-| Bijena Dhewaju | Log File Cleaner | Python | https://pypi.org/project/log-file-cleaner-bijena/ | - |
-| Enzela Neupane | File Extension Changer | Python | - | - |
-| Subekshya Subedi | GeoJSON Image Attacher | Python | https://pypi.org/project/geojsonfile-image-attacher | - |
 
 ---
 
@@ -90,6 +79,43 @@ Students will:
 | Bijena Dhewaju | Movie Watchlist | HTML, CSS | https://github.com/bijenadhewaju/movie-watchlist | - |
 | Bikita Suwal | Notion Lite App | React, Tailwind | https://github.com/bikitasuwal/Notion_app_lite | - |
 | Salina Shrestha | Habit Tracker | React | https://github.com/salena188/smart_habit_tracker | - |
+
+---
+## PyPi Apps 
+| Project Name | Student Name | Tools Used | GitHub / Links | PyPi Link |
+|--------------|-------------|------------|----------------|-------------|		
+|System Info Reporter	|Kopila Devkota	|pypi, python	|https://github.com/kopiladevkota/system-info-reporter	|https://pypi.org/project/system-info-reporter-kopila/
+|CSV to JSON converter |Bikita Suwal|	pypi, python|	https://github.com/bikitasuwal/csv_to_json_converter	|https://pypi.org/project/csvtojson-bikita/
+|Auto screenshot taker|Asmita Timalsena|	pypi, python	|https://github.com/AsmitaTimalsena/auto_screenshot_taker_tool	|https://pypi.org/project/auto-screenshot-tool-asmita/
+|Bulk file Renamer |Anuska Bhandari|	pypi, python	|https://github.com/anuskabhandari/Bulk_file_renamer	|https://pypi.org/project/bulk-renamer-anuska/0.1.2/
+|Email-sender Automation |Anuja Khatri	|pypi, python	|email-sender-automation	|https://pypi.org/project/email-sender-automation/
+|Text File Search Tool |	Urmila Thalal	|python,argparse (for CLI)	|Text_File_Search_Tool.	|https://pypi.org/project/text-file-search-tool-urmila/
+|Password generator and saver|	Salina Shrestha	|pypi, python	|https://github.com/salena188/password_generator	
+|Website status checker|	Aiswarya Pokharel|	pypi, python	|https://github.com/Aiswarya-Pokharel/URL_DROP	|https://pypi.org/project/urldrop/1.0.2/
+|Log File Cleaner |Bijena Dhewaju|	pypi, python	|https://github.com/bijenadhewaju/log-file-cleaner	|https://pypi.org/project/log-file-cleaner-bijena/
+|File Extension Changer| Enzela Neupane	|pypi,python|		
+|Images attacher to the geojson|	Subekshya Subedi	|pypi,python	|geojsonfile-image-attacher | PyPI	
+
+
+
+## Django with Render Deployments
+
+| Student Name | Project Name | GitHub Repository | Live Demo |
+|--------------|-------------|-------------------|-----------|
+| Anuja | Bug Report | https://github.com/Anujakhatri/BugReport | https://bugreport-b1lp.onrender.com |
+| Anuska | Feedback API | https://github.com/anuskabhandari/Feedback-api | https://feedback-api-3-wmt5.onrender.com |
+| Aiswarya | Reminder API | https://github.com/Aiswarya-Pokharel/reminder-ui.git | https://reminder-ui-1.onrender.com |
+| Asmita | Quote API | https://github.com/AsmitaTimalsena/quote_api | https://quote-api-iewd.onrender.com/quotes/ |
+| Bikita | Student Mark API | https://github.com/bikitasuwal/Deployment_test | https://deployment-test-s7hb.onrender.com/ |
+| Bijena | Smart Notes | https://github.com/bijenadhewaju/SmartNotes | https://smartnotes-piro.onrender.com/ |
+| Enzela | Visitor Counter | https://github.com/Enzela/visitor-counter | https://visitor-counter-fyzq.onrender.com |
+| Kopila | Poll Management API | https://github.com/kopiladevkota/poll_mgmt_api_system | https://poll-mgmt-api-system.onrender.com |
+| Roshni | Product Review API | https://github.com/RoshniNeupane/Product-Review-API | N/A |
+| Salina | Announcement API | https://github.com/salena188/AnnouncementApi__project | https://announcementapi-project-s958.onrender.com/ |
+| Sovitha | Login Activity | https://github.com/sovitha77/login_activity | N/A |
+| Subhikshya | Daily Journal | https://github.com/subhikshyashrestha/daily_journal_api | https://daily-journal-api-zpnp.onrender.com |
+| Subekshya | Task Manager | https://github.com/subekshya-s/Task_Manager | https://task-manager-xzly.onrender.com |
+| Urmila | Contact Form | https://github.com/UrmilaThalal/Contact-form-api.git | https://contact-form-api-wkhz.onrender.com |
 
 ##  Mentorship Impact
 
