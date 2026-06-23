@@ -1,0 +1,19 @@
+.hero {
+    padding: 100px 20px;   /* professional spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero button {
+    margin-top: 10px;
+}
