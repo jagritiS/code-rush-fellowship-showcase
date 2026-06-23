@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>march 6 JavaScript</h1>
+    <h1>biki</h1>
+    <h1>Move your mouse!</h1>
+    <p id="coords"></p>
+    <script>
+      //one letter display type 
+      let text = "Bikita suwal"
+      let i=0;
+      function type(){
+        if(i<text.length){
+          document.body.innerHTML+=text.charAt(i);
+          i++;
+          setTimeout(type,500);
+        }
+      }
+      type();
+      
+      // mouse loc
+      document.addEventListener("mousemove", function (event) {
+        let x = event.clientX;
+        let y = event.clientY;
+
+        document.getElementById("coords").innerText =
+          "Mouse X: " + x + " Mouse Y: " + y;
+      });
+
+      // random colors
+      // console.log(navigator.userAgent);
+
+      // setInterval(() => {
+      //   document.body.style.background =
+      //     "#" + Math.floor(Math.random() * 16777215).toString(16);
+      // }, 500);
+
+      //
+      // alert("Welcome to JavaScript Magic!");
+
+      let studentName = "Biki";
+      let marks = 5;
+
+      let price = 100;
+      let quantity = 3;
+
+      console.log(price * quantity);
+
+      function greet(name) {
+        return "Hello " + name;
+      }
+
+      console.log(greet("Bikita"));
+
+      document.body.style.background = "beige";
+
+      document.addEventListener("click", () => {
+        alert("You clicked the page!");
+      });
+    </script>
+  </body>
+</html>
