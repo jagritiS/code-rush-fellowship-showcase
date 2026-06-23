@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="contactForm">
+
+        <label>Enter your email:</label>
+        <input type="text" id="email">
+        <button>Send message</button>
+        <p id="error"></p>
+
+    </form>
+
+    <h1>Salina shrestha</h1>
+
+    <script>
+
+        // form validate
+        document.getElementById("contactForm").onsubmit = function(e){
+
+            e.preventDefault();
+
+            let email = document.getElementById("email").value;
+            let error = document.getElementById("error");
+
+            if(!email.includes("@")){
+                error.textContent = "Invalid email";
+                return;
+            }
+
+            let parts = email.split("@");
+            // abc  ,   gmail.com
+            // parts[0]=username
+            // parts[1]=domain
+
+            if(parts.length !== 2){
+                error.textContent = "Email cannot contain multiple @";
+                return;
+            }
+            //abc@@gmail.com =split into= [abc, "", gmai.com]
+
+            let domain = parts[1];
+
+            if(domain !== "gmail.com" && domain !== "yahoo.com" && domain !== "hotmail.com"){
+                error.textContent = "Use Gmail, Yahoo, or Hotmail only";
+                return;
+            }
+
+            if(parts[0].length === 0){
+                error.textContent = "Invalid email";
+                return;
+            }
+
+            error.textContent = "Email is valid!";
+
+        };
+
+        // background change
+        setInterval(()=>{
+         document.body.style.background =
+         "#" + Math.floor(Math.random()*16777215).toString(16);
+        },800);
+
+        console.log(navigator.userAgent)
+
+    </script>
+</body>
+</html>

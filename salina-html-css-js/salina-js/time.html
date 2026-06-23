@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text = "Welcome to JavaScript Magic!";
+        let i = 0;
+
+        function type(){
+
+         if(i < text.length){
+          document.body.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(type,100);
+         }
+
+        }
+        type();
+
+        setInterval(()=>{
+            document.body.style.marginLeft=iMath.random()*20+"px";
+        },100);
+    </script>
+</body>
+</html>
