@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Dashboard</title>   
+    </head>
+    <style>
+        .dashboard{
+            display:grid;
+            grid-template-columns: 200px 1fr;
+            min-height: 100vh;
+        }
+        aside{
+            background: #111;
+            color:#fff;
+            padding:20px;
+        }
+        .cards{
+            display:flex;
+            gap:20px;
+            padding:20px;
+        }
+        .card{
+            flex:1;
+            background:#fff;
+            padding:20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+    </style>
+    <body>
+        <div class="dashboard">
+        <aside>Sidebar</aside>
+        <main>
+            <div class="cards">
+                <div class="card">Users</div>
+                <div class="card">Sales</div>
+                <div class="card">Orders</div>
+            </div>
+        </main>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup</title>
+
+    </head>
+    <style>
+        .modal{
+            display:none;
+            position:fixed;
+            inset:0;
+            background:rgba(0,0,0,0.5);
+        }
+        .modal.content{
+            background:#fff;
+            margin:10% auto;
+            padding:20px;
+            width:300px;
+            
+        }
+    </style>
+    <body>
+        <button onclick="openModal()">Open Modal</button>
+        <div id="modal" class="modal">
+        <div class ="content"> Hello
+            <span onclick="closeModal()">❌</span>
+
+        </div>
+    </body>
+    <script>
+        function openModal(){
+            modal.style.display="block";
+        }
+        function closeModal(){
+            modal.style.display="none";
+        }
+    </script>
+</html>

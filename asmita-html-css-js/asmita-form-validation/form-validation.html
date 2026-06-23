@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form id="form">
+        <input type="email" id="email" placeholder="Enter your email">
+        <input type="password" id="password" placeholder="Enter your password">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="error"> </p>
+</body>
+<script>
+    document.getElementById("form").onsubmit=(e)=>{
+        e.preventDefault();
+        const email = email.value;
+        const password = password.value;
+        if(!email.includes("@")) error.textContent="Please enter a valid email.";
+        else if(password.length<6) error.textContent="Password must be at least 6 characters.";
+        else error.textContent="Form submitted successfully!";
+    };
+</script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #111;
+        color: white;
+
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+    #toggle{
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    @media(max-width: 600px){
+        ul {
+            display: none;
+            flex-direction: column;
+        }
+        ul.show {
+            display: flex;
+        }
+        #toggle {
+            display: block;
+        }
+    }
+</style>
+<body>
+    <nav>
+        <div class ="logo"> CodeRush</div>
+        <ul id ="menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+
+        </ul>
+        <div id="toggle">☰</div>
+    </nav>
+</body>
+<script>
+    document.getElementById("toggle").onclick=()=>{
+        document.getElementById("menu").classList.toggle("show");
+    }
+</script>
+</html>

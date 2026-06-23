@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Page</title>
+</head>
+
+<body>
+
+<h1>Asmita Timalsena</h1>
+<h2> Click Buttons Below For Different Effects </h2>
+
+<button onclick="changeColor()">Change Background</button>
+<button onclick="startTyping()">Start Typing Effect</button>
+<button onclick="startMoving()">Move Page</button>
+
+<p id="coords"></p>
+<p id="text"></p>
+
+<script>
+
+document.addEventListener("mousemove", function(e){
+    let x = e.clientX;
+    let y = e.clientY;
+    document.getElementById("coords").innerText =
+    "Mouse X: " + x + " | Mouse Y: " + y;
+});
+
+function changeColor(){
+    setInterval(()=>{
+    document.body.style.background =
+    "#" + Math.floor(Math.random()*16777215).toString(16);},500);
+    console.log(navigator.userAgent);
+
+}
+
+let text = "Hello, welcome to my website!";
+let i = 0;
+
+function startTyping(){
+    function type(){
+        if(i < text.length){
+            document.getElementById("text").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type,100);
+        }
+    }
+    type();
+}
+
+function startMoving(){
+    setInterval(()=>{
+        document.body.style.marginLeft = Math.random()*20 + "px";
+    },100);
+}
+
+</script>
+
+</body>
+</html>
