@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#f3f4f6}
+#target{height:100vh;background:#e5e7eb}
+
+    </style>
+</head>
+<body>
+    <section class="hero">
+ <h1>Welcome</h1>
+ <button onclick="scrollToSection()">Get Started</button>
+</section>
+<section id="target">Target Section</section>
+
+</body>
+<script>
+    function scrollToSection(){
+ document.getElementById("target").scrollIntoView({behavior:"smooth"});
+}
+
+</script>
+</html>
