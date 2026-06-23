@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+        .card{
+            background-color: rgb(241, 240, 240);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            
+        }
+
+        .card:hover{
+            box-shadow: 5px 5px 10px rgb(36, 36, 36);
+        }
+
+        .card img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            border-radius: 50%;
+        }
+
+        .card h2 {
+            margin: 8px 0 5px;
+        }
+
+        .card p {
+            color: #a98859;
+            margin: 0 0 8px;
+        }
+
+        #followBtn {
+            background-color: #13a2be;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #followBtn:hover {
+            background-color: #0056b3;
+        }
+       
+    </style>
+</head>
+
+
+<body>
+    <div class="card">
+        <img src="profile.jpg" alt="profile">
+        <h2>Salina Shrestha</h2>
+        <p>Frontend Developer</p>
+        <button id="followBtn">Follow</button>
+    </div>
+
+    <script>
+        const followBtn = document.getElementById('followBtn');
+        followBtn.addEventListener('click', () => {
+            if (followBtn.textContent === 'Follow') {
+                followBtn.textContent = 'Unfollow';
+                followBtn.style.backgroundColor = '#dc3545';
+            } else {
+                followBtn.textContent = 'Follow';
+                followBtn.style.backgroundColor = '#13a2be';
+            }
+        });  
+    </script>
+</body>
+</html>
