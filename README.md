@@ -70,7 +70,7 @@ Students will:
 | Aiswarya Pokharel | Mini Instagram | Django, React, Tailwind | https://github.com/Aiswarya-Pokharel | - |
 | Urmila Thalal | Portfolio Builder | HTML, CSS, JS, Bootstrap | https://github.com/... | - |
 | Anuska Bhandari | Daraz Clone | HTML, CSS, JS | https://github.com/anuskabhandari/Daraz-clone | - |
-| Asmita Timalsena | Event Planner App | HTML, CSS, JS | https://github.com/AsmitaTimalsena/event_planner_app | - |
+| Asmita Timalsena | Event Planner App | Django, React | https://github.com/AsmitaTimalsena/event_planner_app | - |
 | Bidhya Bhattarai | Smart Form Validator | HTML, CSS, JS | https://github.com/bidhyabhattarai/Smart-form-validator-app- | - |
 | Asmita Timalsena | Smart Clinic System | Django, React, REST API | https://github.com/AsmitaTimalsena/smart_clinic_system | - |
 | Roshni Neupane | Expense Splitter App | HTML, CSS, JS | https://github.com/RoshniNeupane/Expense_Splitter_App | - |
